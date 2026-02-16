@@ -6,7 +6,7 @@ pipeline{
         stage("Code"){
             steps{
                 echo "this is cloning the code"
-                git url: "https://github.com/KetanKumar3/HYDRA-VR-Website.git", branch: "main"
+                git url: "https://github.com/KetanKumar3/Jenkins-Test.git", branch: "main"
                 echo "code clone successful"
             }
         }
